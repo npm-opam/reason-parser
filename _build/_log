@@ -1,0 +1,9 @@
+### Starting build.
+# Target: src/reason_parser.mly.depends, tags: { bin_annot, debug, extension:mly, file:src/reason_parser.mly, infer, menhir_ocamldep, ocaml, ocamldep, package(menhirLib unix compiler-libs.common ocamlbuild findlib merlin_extend result dynlink findlib.dynload ocaml-migrate-parsetree ppx_tools_versioned.metaquot_404), quiet, safe_string, traverse, warn(@5@8@10@11@12@14@23-24@26@29@40) }
+menhir --strict --unused-tokens --fixed-exception --table  --raw-depend --ocamldep 'ocamlfind ocamldep -modules' src/reason_parser.mly > src/reason_parser.mly.depends
+# Target: src/reason_config.ml.depends, tags: { bin_annot, debug, extension:ml, file:src/reason_config.ml, ocaml, ocamldep, package(menhirLib unix compiler-libs.common ocamlbuild findlib merlin_extend result dynlink findlib.dynload ocaml-migrate-parsetree ppx_tools_versioned.metaquot_404), quiet, safe_string, traverse, warn(@5@8@10@11@12@14@23-24@26@29@40) }
+ocamlfind ocamldep -package 'menhirLib unix compiler-libs.common ocamlbuild findlib merlin_extend result dynlink findlib.dynload ocaml-migrate-parsetree ppx_tools_versioned.metaquot_404' -modules src/reason_config.ml > src/reason_config.ml.depends
++ ocamlfind ocamldep -package 'menhirLib unix compiler-libs.common ocamlbuild findlib merlin_extend result dynlink findlib.dynload ocaml-migrate-parsetree ppx_tools_versioned.metaquot_404' -modules src/reason_config.ml > src/reason_config.ml.depends
+ocamlfind: Package `ppx_tools_versioned.metaquot_404' not found
+Command exited with code 2.
+# Compilation unsuccessful.
